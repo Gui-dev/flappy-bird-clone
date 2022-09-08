@@ -1,6 +1,6 @@
-# Topdown Shooter
+# Flappy Bird
 
-Topdown Shooter is a action RPG created to learn game development.
+Flappy Bird Clone is a clone of the mobile game, created to learn game development.
 
 ## Tecnologias
 
@@ -10,22 +10,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Screenshot
 
-![asd](./.screens/image_01.png)
-![asd](./.screens/image_02.png)
+<!--![asd](./.screens/image_01.png) ![asd](./.screens/image_02.png)-->
 
 ## Features
 
 - [x] Avoid obstacles (collision)
 - [x] Animation on walk/idle
-- [x] Attack with animation
-- [x] Player & monster stats
-- [x] Monsters tries to reach the player
-- [x] Monsters attacks
+- [] Attack with animation
+- [] Player & monster stats
+- [] Monsters tries to reach the player
+- [] Monsters attacks
 - [x] Player dies
-- [x] UI bars
-- [x] Monsters wander around when player's near
+- [] UI bars
+- [] Monsters wander around when player's near
 - [ ] A-Star algorithm when monsters trying to reach the player
-- [x] A cool map
-- [x] Animation on attack
-- [x] Stats bars on monsters
-- [x] Ranged monsters and weapons
+- [] A cool map
+- [] Animation on attack
+- [] Stats bars on monsters
+- [] Ranged monsters and weapons
