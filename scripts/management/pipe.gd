@@ -2,9 +2,9 @@ extends Node2D
 class_name Pipe
 
 
-onready var top_pipe = $top_pipe
-onready var bottom_pipe = $bottom_pipe
-onready var score_area = $score_area
+onready var top_pipe: Area2D = $top_pipe
+onready var bottom_pipe: Area2D = $bottom_pipe
+onready var score_area: Area2D = $score_area
 export(int) var walk_speed
 export(Array, String) var pipe_texture
 
@@ -18,6 +18,12 @@ func _ready() -> void:
 
 func _physics_process(delta: float) -> void:
   position.x -= delta * walk_speed
+
+
+func game_over() -> void:
+  top_pipe.get_node('collision').set_deferred('disabled', true)
+  bottom_pipe.get_node('collision').set_deferred('disabled', true)
+  set_physics_process(false)
 
 
 func _on_notifier_screen_exited() -> void:
