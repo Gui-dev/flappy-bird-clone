@@ -18,10 +18,34 @@ _global_script_classes=[ {
 "class": "Bird",
 "language": "GDScript",
 "path": "res://scripts/player/bird.gd"
+}, {
+"base": "CanvasLayer",
+"class": "Interface",
+"language": "GDScript",
+"path": "res://scripts/management/interface.gd"
+}, {
+"base": "Node2D",
+"class": "Main",
+"language": "GDScript",
+"path": "res://scripts/levels/main.gd"
+}, {
+"base": "Node2D",
+"class": "Pipe",
+"language": "GDScript",
+"path": "res://scripts/management/pipe.gd"
+}, {
+"base": "Position2D",
+"class": "PipeSpawner",
+"language": "GDScript",
+"path": "res://scripts/environments/pipe_spawner.gd"
 } ]
 _global_script_class_icons={
 "Background": "",
-"Bird": ""
+"Bird": "",
+"Interface": "",
+"Main": "",
+"Pipe": "",
+"PipeSpawner": ""
 }
 
 [application]
