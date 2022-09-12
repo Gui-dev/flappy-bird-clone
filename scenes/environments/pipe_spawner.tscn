@@ -11,6 +11,5 @@ pipe_scene = ExtResource( 2 )
 
 [node name="timer" type="Timer" parent="."]
 wait_time = 2.0
-autostart = true
 
 [connection signal="timeout" from="timer" to="." method="_on_timer_timeout"]
