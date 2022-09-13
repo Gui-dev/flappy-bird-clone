@@ -38,6 +38,11 @@ _global_script_classes=[ {
 "class": "PipeSpawner",
 "language": "GDScript",
 "path": "res://scripts/environments/pipe_spawner.gd"
+}, {
+"base": "AudioStreamPlayer2D",
+"class": "SoundEffect",
+"language": "GDScript",
+"path": "res://scripts/management/sfx.gd"
 } ]
 _global_script_class_icons={
 "Background": "",
@@ -45,7 +50,8 @@ _global_script_class_icons={
 "Interface": "",
 "Main": "",
 "Pipe": "",
-"PipeSpawner": ""
+"PipeSpawner": "",
+"SoundEffect": ""
 }
 
 [application]

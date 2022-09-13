@@ -7,6 +7,7 @@ var score: int = 0
 onready var animation: AnimationPlayer = $animation
 onready var score_container: Control = $score_container
 onready var message_container: Control = $message_container
+export(PackedScene) var sfx_scene
 
 
 func _ready() -> void:
@@ -19,11 +20,18 @@ func _ready() -> void:
 
 func update_score() -> void:
   score += 1
+  spawn_sfx('res://assets/sfx/point.ogg')
   score_container.get_node('text').text = str(score)
   
 
 func game_over() -> void:
   message_container.get_node('game_over').show()
+
+
+func spawn_sfx(effect: String) -> void:
+  var sfx: SoundEffect = sfx_scene.instance()
+  sfx.stream = load(effect)
+  get_tree().root.call_deferred('add_child', sfx)
     
 
 func on_button_pressed(button: Button) -> void:
