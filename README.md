@@ -10,8 +10,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Screenshot
 
-![asd](./.screens/image_01.png) 
-![asd](./.screens/image_02.png)
+<p align="center">
+  <img alt="Flappy Bird Clone" src=".screens/image_1.png" width="49%">
+  <img alt="Flappt Bird Clone" src=".screens/image_2.png" width="49%">
+</p>
 
 ## Features
 
