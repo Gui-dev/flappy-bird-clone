@@ -10,7 +10,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Screenshot
 
-<!--![asd](./.screens/image_01.png) ![asd](./.screens/image_02.png)-->
+![asd](./.screens/image_01.png) 
+![asd](./.screens/image_02.png)
 
 ## Features
 
